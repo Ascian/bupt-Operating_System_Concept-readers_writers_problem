@@ -6,7 +6,7 @@
 #include "logging.h"
 #include "order.h"
 
-//表示当前未完成任务的读者写者总数
+//控制线程数量的信号量
 extern sem_t kQueueNum;
 //输出流
 extern Log kOutputLog;
@@ -48,7 +48,7 @@ void* writer(void* param)
 	sem_wait(&kShareMutex);  //申请缓冲区访问权限
 
 	//打印输出W、id、spend_time，并将id写入kShareData
-	kOutputLog << "\t\tW" << order->id << order->spend_time << "\n";
+	kOutputLog << "\t\t\tW" << order->id << order->spend_time << "\n";
 	kShareData = order->id;
 	Sleep(order->spend_time * 1000);
 
@@ -77,7 +77,7 @@ void* reader(void* param)
 	sem_post(&kQueueMutex);  //释放排队权限
 
 	//打印输出R、id、spend_time，读取kShareData，并打印输出
-	kOutputLog << "\t\tR" << order->id << order->spend_time << kShareData << "\n";
+	kOutputLog << "\t\t\tR" << order->id << order->spend_time << kShareData << "\n";
 	Sleep(order->spend_time * 1000);
 
 	sem_wait(&kReadMutex);

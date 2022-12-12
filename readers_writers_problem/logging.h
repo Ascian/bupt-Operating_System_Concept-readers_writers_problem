@@ -16,7 +16,6 @@ public:
 	Log(const string& log_path)
 	{
 		log_file_.open(log_path, ios::out);
-		log_file_ << 1;
 		pthread_mutex_init(&output_mutex_, nullptr);
 	}
 

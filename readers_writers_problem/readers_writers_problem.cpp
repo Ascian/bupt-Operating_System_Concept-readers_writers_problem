@@ -13,7 +13,7 @@
 #include "readers_first.h"
 #include "writers_first.h"
 
-//表示当前未完成任务的读者写者总数
+//控制线程数量的信号量
 sem_t kQueueNum;
 //output输出流
 Log kOutputLog("output.txt");
@@ -24,9 +24,9 @@ int main(int argc, char* argv[])
     if (argc < 4)
         return 0;
 
-    int data_num = stoi(argv[2]);
-    int time_max = stoi(argv[3]);
-    sem_init(&kQueueNum, 0, data_num);  //设置线程最大数量
+    int data_num = stoi(argv[2]);  //设置线程最大数量
+    int time_max = stoi(argv[3]);  //读或写最大花费时间
+    sem_init(&kQueueNum, 0, data_num);  
     pthread_t* threads = new pthread_t[data_num];
     Order* orders = new Order[data_num];
     for (int i = 0; i < data_num; i++)
