@@ -1,0 +1,280 @@
+1 readers first
+ Create W 0 5 
+ Create W 1 4 
+ 		W 0 5 
+ Create W 2 3 
+ Create W 3 1 
+ Create R 4 1 
+ Create W 5 3 
+ Create W 6 4 
+ Create R 7 2 
+ Create R 8 3 
+ Create R 9 4 
+ Create W 10 1 
+ Create R 11 5 
+ Create W 12 4 
+ Create R 13 3 
+ Create W 14 4 
+ Create W 15 4 
+ Create W 16 3 
+ Create R 17 4 
+ Create R 18 1 
+ Create W 19 5 
+ Create R 20 3 
+ 		W 1 4 
+ Create W 21 2 
+ 		W 2 3 
+ Create R 22 3 
+ 		W 3 1 
+ 		R 4 1 3 
+ 		R 11 5 3 
+ 		R 22 3 3 
+ 		R 13 3 3 
+ 		R 7 2 3 
+ 		R 20 3 3 
+ 		R 18 1 3 
+ Create W 23 3 
+ 		R 8 3 3 
+ 		R 9 4 3 
+ 		R 17 4 3 
+ Create R 24 4 
+ Create R 25 4 
+ 		R 24 4 3 
+ 		R 25 4 3 
+ Create R 26 5 
+ 		R 26 5 3 
+ Create R 27 5 
+ Create W 28 4 
+ 		R 27 5 3 
+ Create W 29 1 
+ Create W 30 2 
+ Create W 31 4 
+ Create R 32 4 
+ 		R 32 4 3 
+ Create R 33 4 
+ Create W 34 4 
+ 		R 33 4 3 
+ Create R 35 4 
+ 		R 35 4 3 
+ Create R 36 3 
+ 		R 36 3 3 
+ Create W 37 2 
+ Create R 38 5 
+ 		R 38 5 3 
+ Create W 39 2 
+ Create R 40 5 
+ 		R 40 5 3 
+ Create W 41 3 
+ Create W 42 1 
+ Create R 43 2 
+ 		W 5 3 
+ Create R 44 4 
+ 		W 6 4 
+ Create R 45 5 
+ 		W 10 1 
+ 		W 12 4 
+ Create R 46 2 
+ Create R 47 3 
+ 		W 14 4 
+ 		W 15 4 
+ Create R 48 5 
+ 		W 16 3 
+ Create R 49 4 
+ 		W 19 5 
+ Create R 50 4 
+ Create W 51 3 
+ 		W 21 2 
+ Create R 52 3 
+ 		W 23 3 
+ Create R 53 2 
+ 		W 28 4 
+ 		W 29 1 
+ Create R 54 1 
+ 		W 30 2 
+ Create W 55 2 
+ Create R 56 2 
+ 		W 31 4 
+ Create W 57 3 
+ 		W 34 4 
+ Create W 58 5 
+ 		W 37 2 
+ 		W 39 2 
+ Create W 59 5 
+ Create R 60 5 
+ 		W 41 3 
+ 		W 42 1 
+ Create R 61 5 
+ 		R 43 2 42 
+ 		R 46 2 42 
+ 		R 52 3 42 
+ 		R 60 5 42 
+ 		R 48 5 42 
+ 		R 56 2 42 
+ 		R 47 3 42 
+ Create W 62 3 
+ 		R 49 4 42 
+ 		R 54 1 42 
+ 		R 53 2 42 
+ 		R 61 5 42 
+ 		R 45 5 42 
+ 		R 50 4 42 
+ 		R 44 4 42 
+ Create R 63 1 
+ 		R 63 1 42 
+ Create W 64 3 
+ Create W 65 5 
+ Create W 66 1 
+ Create W 67 4 
+ Create R 68 1 
+ 		R 68 1 42 
+ Create R 69 4 
+ Create W 70 4 
+ 		R 69 4 42 
+ Create R 71 5 
+ 		R 71 5 42 
+ Create R 72 5 
+ Create R 73 4 
+ 		R 72 5 42 
+ Create W 74 4 
+ 		R 73 4 42 
+ Create R 75 4 
+ Create W 76 2 
+ 		R 75 4 42 
+ Create R 77 5 
+ Create W 78 4 
+ 		R 77 5 42 
+ Create R 79 4 
+ 		R 79 4 42 
+ Create W 80 1 
+ Create W 81 2 
+ Create R 82 2 
+ 		R 82 2 42 
+ Create R 83 4 
+ 		R 83 4 42 
+ Create R 84 1 
+ 		R 84 1 42 
+ Create R 85 1 
+ Create W 86 5 
+ 		R 85 1 42 
+ Create R 87 3 
+ 		R 87 3 42 
+ Create R 88 4 
+ 		R 88 4 42 
+ Create R 89 2 
+ 		R 89 2 42 
+ Create R 90 2 
+ 		R 90 2 42 
+ Create R 91 4 
+ 		R 91 4 42 
+ Create W 92 3 
+ Create W 93 1 
+ 		W 51 3 
+ Create R 94 4 
+ Create R 95 4 
+ 		W 55 2 
+ Create W 96 4 
+ 		W 57 3 
+ 		W 58 5 
+ Create R 97 2 
+ 		W 59 5 
+ Create W 98 3 
+ Create W 99 1 
+ 		W 62 3 
+ 		W 64 3 
+ Create W 100 4 
+ 		W 65 5 
+ Create W 101 3 
+ 		W 66 1 
+ Create W 102 2 
+ 		W 67 4 
+ Create R 103 1 
+ 		W 70 4 
+ Create W 104 2 
+ Create W 105 5 
+ 		W 74 4 
+ Create W 106 4 
+ 		W 76 2 
+ 		W 78 4 
+ Create R 107 4 
+ Create R 108 2 
+ 		W 80 1 
+ Create W 109 1 
+ 		W 81 2 
+ 		W 86 5 
+ Create W 110 1 
+ 		W 92 3 
+ Create R 111 1 
+ Create W 112 3 
+ 		W 93 1 
+ Create R 113 4 
+ 		R 97 2 93 
+ 		R 108 2 93 
+ 		R 103 1 93 
+ 		R 95 4 93 
+ 		R 107 4 93 
+ 		R 113 4 93 
+ 		R 94 4 93 
+ 		R 111 1 93 
+ Create R 114 5 
+ Create R 115 5 
+ 		R 114 5 93 
+ 		R 115 5 93 
+ Create R 116 4 
+ Create R 117 5 
+ 		R 116 4 93 
+ 		R 117 5 93 
+ Create W 118 5 
+ Create R 119 3 
+ Create R 120 5 
+ 		R 119 3 93 
+ Create R 121 5 
+ 		R 120 5 93 
+ 		R 121 5 93 
+ Create R 122 5 
+ Create R 123 4 
+ 		R 122 5 93 
+ 		R 123 4 93 
+ Create R 124 5 
+ 		R 124 5 93 
+ Create R 125 1 
+ Create R 126 1 
+ 		R 125 1 93 
+ 		R 126 1 93 
+ Create R 127 5 
+ Create R 128 2 
+ 		R 127 5 93 
+ 		R 128 2 93 
+ Create R 129 5 
+ Create W 130 4 
+ 		R 129 5 93 
+ Create R 131 3 
+ 		R 131 3 93 
+ Create W 132 3 
+ Create R 133 4 
+ Create W 134 1 
+ 		R 133 4 93 
+ Create W 135 2 
+ Create W 136 5 
+ Create R 137 3 
+ 		R 137 3 93 
+ Create W 138 3 
+ 		W 96 4 
+ Create R 139 3 
+ 		W 98 3 
+ Create R 140 1 
+ 		W 99 1 
+ Create R 141 3 
+ Create W 142 2 
+ 		W 100 4 
+ 		W 101 3 
+ Create R 143 3 
+ Create R 144 1 
+ 		W 102 2 
+ Create W 145 2 
+ 		W 104 2 
+ Create W 146 4 
+ 		W 105 5 
+ Create W 147 1 
+ 		W 106 4 
+ Create W 148 3 
+ 		W 
